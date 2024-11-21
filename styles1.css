@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white; /* Fondo blanco */
+    background-color: #1e1e1e; /* Fondo blanco */
 }
 
 header {
-    background-color: rgb(25, 43, 78); /* Color de fondo azul */
+    background-color: #34495e; /* Color de fondo azul */
     color: white;
     padding: 15px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -68,7 +68,7 @@ header {
 }
 
 .dropbtn {
-    background-color: rgb(32, 93, 203);
+    background-color: #34495e;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -84,7 +84,7 @@ header {
 .dropup-content {
     display: none;
     position: absolute;
-    background-color: rgb(32, 93, 203);
+    background-color: #20354d;
     min-width: 160px;
 }
 
@@ -104,7 +104,7 @@ header {
 }
 
 .dropup:hover .dropbtn {
-    background-color: #2980B9;
+    background-color: #313f50;
 }
 
 /* Estilos de la galería y la misión */
@@ -112,7 +112,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: white;
+    background-color: #1e1e1e;
 }
 
 .image-gallery {
@@ -172,7 +172,7 @@ input[type="radio"] {
     height: 15px;
     margin: 0 5px;
     border-radius: 50%;
-    background-color: #00aaff
+    background-color: #091edb
     ;
     cursor: pointer;
 }
@@ -184,18 +184,19 @@ input[type="radio"]:checked + label {
 .mission-text {
     width: 45%; /* 45% del ancho para el texto */
     padding: 10%;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 10px rgba(12, 178, 229, 0.1); /* Sombra alrededor del texto */
+    background-color: #34495e;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); /* Sombra alrededor del texto */
     border-radius: 10px;
 }
 
 .mission-text h1 {
     text-align: center;
     font-size: 3rem;
-    color: #00aaff;
+    color: #ffffff;
 }
 
 .mission-text p {
     font-size: 1.2rem;
     line-height: 1.6;
+    color: #ffffff;
 }

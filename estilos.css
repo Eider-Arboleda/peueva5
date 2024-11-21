@@ -69,12 +69,13 @@ header {
 }
 
 .navbar ul li a.active {
-    background-color: #04AA6D; /* Cambia el color de fondo del enlace activo o seleccionado */
+    background-color: #63cea6; /* Cambia el color de fondo del enlace activo o seleccionado */
     border-radius: 4px; /* Redondea ligeramente las esquinas del enlace activo */
 }
 .dropbtn {
-    background-color:  rgb(32, 93, 203);
+    background-color:  #34495e;
     color: white;
+    border-radius: 4px; /* Redondea ligeramente las esquinas del enlace */
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -90,7 +91,8 @@ header {
   .dropup-content {
     display: none;
     position: absolute;
-    background-color:  rgb(32, 93, 203);
+    background-color:  #192c42;
+    border-radius: 4px;
     min-width: 160px;
     
   }
@@ -109,7 +111,7 @@ header {
   }
   
   .dropup:hover .dropbtn {
-    background-color: #2980B9;
+    background-color: #2C3E50;
   }
 
 @media screen and (max-width: 600px) {
