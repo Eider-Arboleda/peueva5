@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">                                                         <!-- Declara el tipo de documento como HTML5 y establece el idioma a español. -->
+<head>
+    <meta charset="UTF-8">                                                <!-- Especifica la codificación de caracteres como UTF-8 para soportar caracteres especiales. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la visualización para adaptarse a diferentes tamaños de pantalla, esencial para el diseño responsivo. -->
+    <title>Eider Arboleda</title>                                            <!-- Título de la página que aparecerá en la pestaña del navegador. -->
+    <link rel="stylesheet" href="estilos.css">                             <!-- Vincula una hoja de estilo CSS externa para el diseño y la apariencia de la página. -->
+</head>
+
+<body> 
+    <!-- Información del encabezado -->
+    <header>
+        <h1>Eider Arboleda - Jesid Villota</h1>
+        <div class="logo-titulo">
+            <img id="icono1" src="https://static.vecteezy.com/system/resources/previews/007/539/914/non_2x/news-logo-design-vector.jpg" alt="Soluciones">       <!-- Imagen del logo de la empresa con un identificador único (id). -->
+            <h1 id="superior">NOTICIAS DE ULTIMA HORA</h1>                                    <!-- Título de la empresa con un identificador único (id) para estilo personalizado. -->
+        </div>
+        <nav class="navbar">  
+            <ul class="menu">                                                    <!-- Lista no ordenada para el menú de navegación principal. -->
+                <li><a href="/index.html">Inicio</a></li>                        <!-- Enlace al inicio de la página. -->
+                <li class="dropup">                                              <!-- Elemento de menú con submenú (dropup). -->
+                    <button class="dropbtn">Nosotros</button>                   <!-- Botón que activa el submenú. -->
+                    <div class="dropup-content">                                <!-- Contenedor para los elementos del submenú. -->
+                        <a href="mision.html">Mision</a>                        <!-- Enlace a la página de Misión. -->
+                        <a href="vision.html">Vision</a>                        <!-- Enlace a la página de Visión. -->
+                        <a href="prinicipios.html">Principios</a>               <!-- Enlace a la página de Principios. -->
+                    </div>
+                </li>
+                <li><a href="#">Servicios</a></li>                              <!-- Enlace a la sección de Servicios. -->
+                <li><a href="#">Contactos</a></li>                              <!-- Enlace a la sección de Contactos. -->
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Carrusel de imágenes o slider -->
+    <div class="slider">
+        <!-- Botones de radio para el control manual del slider -->
+        <input type="radio" name="radio-btn" id="radio1" checked> <!-- Botón de radio para la primera imagen, marcado por defecto. -->
+        <input type="radio" name="radio-btn" id="radio2"> <!-- Botón de radio para la segunda imagen. -->
+        <input type="radio" name="radio-btn" id="radio3"> <!-- Botón de radio para la tercera imagen. -->
+
+        <div class="slides"> <!-- Contenedor de las diapositivas del slider. -->
+            <!-- Primera diapositiva del slider -->
+            <div class="slide first"> 
+                <img src="https://estaticos.elcolombiano.com/binrepository/1005x566/0c0/780d565/none/11101/TYHY/aeropuerto-barcelona-dana_46446124_20241104093931.jpg" alt="Noticia 1"> <!-- Imagen para la primera diapositiva. -->
+                <div class="caption"> <!-- Contenedor de texto que acompaña la imagen. -->
+                    <h2>Los efectos de la DANA en España causan ahora estragos en Barcelona: hasta la pista del aeropuerto se inundó </h2>
+                    <p>La Agencia Estatal de Meteorología (AEMET) emitió una alerta roja para Barcelona por el “peligro extremo por lluvias torrenciales” y recomendó “no viajar si no es estrictamente necesario”. Se convierte así esta ciudad en la última región de España impactada por las condiciones meteorológicas causadas por la DANA.
+
+                        Las lluvias torrenciales que han caído desde la madrugada sobre Barcelona y que usuarios en redes sociales han registrado con preocupación hicieron que se cancelara el tráfico de trenes de cercanías y se retrasara la movilidad del tren de alta velocidad entre la ciudad y Madrid.</p>
+                </div>
+            </div>
+            <!-- Segunda diapositiva del slider -->
+            <div class="slide">
+                <img src="https://www.semana.com/resizer/v2/F7USA4PTRZE3LHVBP2VHOJZZ3E.jpeg?auth=e75951591e0b14267411c4dd20ec839bd26c1965b45d0c5c015e6417b4495ac2&smart=true&quality=75&width=1280&height=720" alt="Noticia 2"> <!-- Imagen para la segunda diapositiva. -->
+                <div class="caption">
+                    <h2>Nasa revela impresionantes imágenes del antes y después del paso de la dana por territorio español</h2>
+                    <p>La Nasa publicó por medio de sus redes sociales las imágenes comparativas entre el mes de octubre 2022 y de 2024, de la Comunidad Valenciana, que vivió el paso de dana la semana pasada.
+
+                        Por medio de la utilización del satélite Landsat 8, la institución mostró la verdadera dimensión de la tragedia y el gran avance que tuvieron las aguas en las localidades afectadas por el fenómeno natural.</p>
+                </div>
+            </div>
+            <!-- Tercera diapositiva del slider -->
+            <div class="slide">
+                <img src="https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP4066361-s-o.webp" alt="Noticia 3"> <!-- Imagen para la tercera diapositiva. -->
+                <div class="caption">
+                    <h2>Colombiano vive drama por la Dana en España; jefe lo obligó a trabajar y caminar por horas</h2>
+                    <p>En España aún se respira humedad y el olor a lodo permanece, pues la Dana que golpeó dicho país el 29 de octubre causó estragos y los daños siguen siendo visibles en diferentes sectores. Valencia fue la primera ciudad que sintió el golpe, mientras que Tarragona y Barcelona sufrieron el coletazo en la madrugada de este lunes.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navegación automática del slider (indicadores visuales) -->
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div> <!-- Botón automático para la primera imagen. -->
+            <div class="auto-btn2"></div> <!-- Botón automático para la segunda imagen. -->
+            <div class="auto-btn3"></div> <!-- Botón automático para la tercera imagen. -->
+        </div>
+
+        <!-- Navegación manual del slider (botones de control) -->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label> <!-- Botón manual para la primera imagen. -->
+            <label for="radio2" class="manual-btn"></label> <!-- Botón manual para la segunda imagen. -->
+            <label for="radio3" class="manual-btn"></label> <!-- Botón manual para la tercera imagen. -->
+        </div>
+    </div>
+    
+    <!-- Sección principal de contenido -->
+    <main>
+        <section class="texto-imagen"> <!-- Sección que contiene texto e imágenes. -->
+            <div class="texto"> <!-- Contenedor para el texto explicativo. -->
+                <h2>Bienvenido a las noticias mas importantes del dia en el mundo</h2> <!-- Encabezado de bienvenida. -->
+                <p>Aqui se informara de las notiias mas importantes de la actualidad y que estan conmocionando a la humanidad </p>
+                <br>
+                <h2>Noticias relevantes</h2>
+                <ol> <!-- Lista ordenada que enumera las ventajas ofrecidas por la empresa. -->
+                    <li>Los efectos de la DANA en España causan ahora estragos en Barcelona: hasta la pista del aeropuerto se inundó</li>
+                    <li>Nasa revela impresionantes imágenes del antes y después del paso de la dana por territorio español</li>
+                    <li>Colombiano vive drama por la Dana en España; jefe lo obligó a trabajar y caminar por horas</li>
+                </ol>
+            </div>
+            <div class="image-container"> <!-- Contenedor para la imagen que acompaña al texto. -->
+                <img src="https://img.freepik.com/vector-premium/concepto-noticias-mundiales-ilustracion-globo-vectorial-tema-periodistico-noticias-vivo_570429-18111.jpg?semt=ais_hybrid" alt="Soluciones"> <!-- Imagen representativa de los servicios de la empresa. -->
+            </div>
+            <br><br>
+ 
+        </section>
+    </main>
+    <!-- Pie de página -->
+    <footer>
+        <p>Mi proyecto. Todos los derechos reservados.</p> <!-- Información de derechos reservados en el pie de página. -->
+    </footer>
+</body>
+</html>
